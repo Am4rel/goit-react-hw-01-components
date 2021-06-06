@@ -44,7 +44,7 @@
 ## Приклад використання
 
 ```js
-import friends from 'path/to/friends.json';
+import friends from "path/to/friends.json";
 
 <FriendList friends={friends} />;
 ```
