@@ -1,0 +1,33 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem {
+  margin: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mainDiv {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}

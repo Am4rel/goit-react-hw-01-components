@@ -1,0 +1,36 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  border-radius: 50%;
+  width: 175px;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.listItem {
+  margin: 10px;
+}
+
+.personalInfo {
+  margin-left: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.mainDiv {
+  background-color: #eac3fa;
+  border: 1px solid black;
+}
