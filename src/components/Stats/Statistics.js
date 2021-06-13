@@ -4,7 +4,7 @@ import styles from "./stats.module.css";
 
 const Statistics = (props) => (
   <section className={styles.mainDiv}>
-    <h2 className={styles.title}>Upload stats</h2>
+    {props.title && <h2 className={styles.title}>{props.title}</h2>}
 
     <ul className={styles.list}>
       {props.statisticsList
